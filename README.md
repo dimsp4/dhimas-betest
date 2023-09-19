@@ -17,7 +17,7 @@ There is two Backend Application on this project,
 
 ## BtpnAuthAPI
 
-API ini untuk Register, Login, dan mendapatkan token untuk dipakai di backend BtpnUserAPI.
+This API is for Register, Login, and Get Authorization Token.
 
 ### Login
   
@@ -53,7 +53,13 @@ API ini untuk Register, Login, dan mendapatkan token untuk dipakai di backend Bt
 
 ## BtpnUserAPI
 
-API ini digunakan untuk mengelola data user.
+This API is for Create, Read, Update, Delete on User Data
+
+### Technology
+- MongoDB
+- Redis
+- Node JS
+- Express
 
 ## Endpoint
 
