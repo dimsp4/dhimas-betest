@@ -1,0 +1,3 @@
+{"_id":{"$oid":"650985ffc7b6323800914eb8"},"userName":"yos","accountNumber":1,"emailAddress":"yos@asik.com","identityNumber":10,"__v":0}
+{"_id":{"$oid":"65098611c7b6323800914ebc"},"userName":"dims","accountNumber":2,"emailAddress":"dims@asik.com","identityNumber":20,"__v":0}
+{"_id":{"$oid":"65098621c7b6323800914ebe"},"userName":"akbar","accountNumber":3,"emailAddress":"akbar@asik.com","identityNumber":30,"__v":0}
