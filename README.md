@@ -77,6 +77,6 @@ This API is for Create, Read, Update, Delete on User Data
 ### Catatan
 
 - Semua endpoint membutuhkan autentikasi menggunakan token JWT.
-- Endpoint / dan /byAccountNumber/:accountNumber menggunakan cache.
+- Endpoint (GET) / dan /:id menggunakan cache Redis.
 - Jika data cache sudah tersedia, maka data tersebut akan dikembalikan tanpa perlu melakukan query ke database.
 - Endpoint createUserData, updateUserData, dan deleteUserData akan menghapus cache data user.
